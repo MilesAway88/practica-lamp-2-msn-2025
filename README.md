@@ -8,7 +8,7 @@ En esta tarea aprendemos a automatizar la instalación y despliegue de una pila 
 1. Clonar los archivos del [proyecto][1]
 
 2. Añadir permisos de ejecución a los scripts:<br>
-    `chmod +x install-lamp.sh deploy.sh`
+    `chmod +x install-lamp.sh install-tools.sh`
 
 3. (Opcional) Modificar archivo .env con datos personalizados
 
@@ -16,7 +16,7 @@ En esta tarea aprendemos a automatizar la instalación y despliegue de una pila 
     `sudo ./install-lamp.sh`
 
 5. Ejecutar archivo de despliegue:<br>
-    `sudo ./deploy.sh`
+    `sudo ./install-tools.sh`
 
 6. Comprobar funcionamiento en el navegador:<br>
     Ir a `http://localhost`
@@ -46,17 +46,17 @@ En esta tarea aprendemos a automatizar la instalación y despliegue de una pila 
 4. Clonar [repositorio][1]:<br>
     `git clone {url_repositorio}`
 
-5. (Opcional) Modificar el fichero *.env*
+5. (Opcional) Modificar el fichero *.env.example*
     - **Importante:** Poner la IP elástica en la variable *SERVER_IP*
 
 6. Añadir permisos de ejecución a los scripts:<br>
-    `chmod +x install-lamp.sh deploy.sh`
+    `chmod +x install-lamp.sh install-tools.sh`
 
 7. Ejecutar archivo de instalación:<br>
     `sudo ./install-lamp.sh`
 
 8. Ejecutar archivo de despliegue:<br>
-    `sudo ./deploy.sh`
+    `sudo ./install-tools.sh`
 
 9. Comprobar funcionamiento en el navegador:<br>
     Ir a `http://{IP_ELASTICA}`
@@ -82,9 +82,5 @@ En esta tarea aprendemos a automatizar la instalación y despliegue de una pila 
 
 ---
 
-## Créditos
-En esta práctica se ha usado código basado en el repositorio [practica-lamp][2] de [@CarlesCanals][3]
-
-[1]: https://github.com/MilesAway88/practica-lamp-msn-2025
-[2]: https://github.com/CarlesCanals/practica-lamp
-[3]: https://github.com/CarlesCanals
+[1]: https://github.com/MilesAway88/practica-lamp-2-msn-2025
+[2]: 
