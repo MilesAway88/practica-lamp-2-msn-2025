@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Instalación de otras herramientas
+# Instalación de otras herramientas prueba
 echo "--------------------------------------"
 echo "Instalando herramientas adicionales..."
 echo "--------------------------------------"
